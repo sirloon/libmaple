@@ -1,4 +1,4 @@
-Seb says
+Seb says...
 
 Forked libmaple project, including support for 3rd party board:
  - ultra low cost minimal developement board, STM32F103C8T6 based, 
@@ -10,7 +10,7 @@ Forked libmaple project, including support for 3rd party board:
       to use it
 
 
-Following is the orginal 
+Following is the original README file from LeafLabs
 
                    _ _ _                           _
                   | (_) |__  _ __ ___   __ _ _ __ | | ___
