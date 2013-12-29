@@ -85,6 +85,15 @@ extern "C" {
 #   define STM32_SRAM_END               ((void*)0x20005000)
 #   define STM32_MEDIUM_DENSITY
 
+#elif defined(MCU_STM32F103C8)
+#   define STM32_F1_LINE                STM32_F1_LINE_PERFORMANCE
+    /* This STM32_NR_GPIO_PORTS is not true, but only pins 0 and
+     * exist, and they're used for OSC (e.g. on LeafLabs' Maple Mini),
+     * so we'll live with this for now. */
+#   define STM32_NR_GPIO_PORTS          3
+#   define STM32_SRAM_END               ((void*)0x20005000)
+#   define STM32_MEDIUM_DENSITY
+
 #elif defined(MCU_STM32F103RE)
 #   define STM32_F1_LINE                STM32_F1_LINE_PERFORMANCE
 #   define STM32_NR_GPIO_PORTS          4
