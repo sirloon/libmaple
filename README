@@ -1,8 +1,13 @@
 Seb says
+
 Forked libmaple project, including support for 3rd party board:
  - ultra low cost minimal developement board, STM32F103C8T6 based, 
    eg. http://www.wayengineer.com/index.php?main_page=product_info&cPath=50_222&products_id=2889
    => export BOARD=minimal
+
+'arm' directory contains the toolchain, originally from LeafLabs as well. It's currently for OSX.
+   => export PATH=`pwd`/arm/bin:$PATH
+      to use it
 
 
 Following is the orginal 
